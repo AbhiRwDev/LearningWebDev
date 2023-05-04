@@ -17,6 +17,7 @@ hr {
 
 img {
     height: 200px;
+   
 }
 h1,h3,h4{
     font-family:monospace;
@@ -24,4 +25,16 @@ h1,h3,h4{
     font-weight: bold;
     color: #203636;
     accent-color: #2E4F4F;
+}
+
+.profileImgStyle:hover
+{
+    border-radius: 20%;
+    filter: grayscale(0%);
+    
+}
+.profileImgStyle{
+    border-radius: 100%;
+    filter: grayscale(100%);
+    
 }
