@@ -1,0 +1,27 @@
+
+body {
+
+    background-color: #CBE4DE;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 6px;
+    border-color: #9BA4B5;
+    color: gray;
+    width: 4%;
+
+
+
+}
+
+img {
+    height: 200px;
+}
+h1,h3,h4{
+    font-family:monospace;
+    font-stretch:extra-expanded;
+    font-weight: bold;
+    color: #203636;
+    accent-color: #2E4F4F;
+}
