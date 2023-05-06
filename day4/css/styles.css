@@ -1,1 +1,47 @@
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.articles article
+{
+    margin: auto;
+    float: left;
+    border: 2px dotted grey;
+    width: 33.33%;
+    box-sizing: border-box;
+    background-color: darkgray;
+    font:bold 15px arial ;
+    font-family: monospace;
+}
+.Container
+{
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+.Navigation ul li
+{
+    border: 3px dotted black;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 1%;
+    box-sizing: border-box;
+    list-style: none;
+   
+    float: left;
+}
+.Navigation ul li:hover
+{
+    border-radius: 10%;
+}
+.clr{
+    clear: both;
+}
+.mainFooter
+{
+    text-align: center;
+    margin: 1%;
+   
+}
