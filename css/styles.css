@@ -27,14 +27,15 @@ h1,h3,h4{
     accent-color: #2E4F4F;
 }
 
-.profileImgStyle:hover
+.profileImgStyle:hover 
 {
     border-radius: 20%;
     filter: grayscale(0%);
     
 }
 .profileImgStyle{
-    border-radius: 100%;
+    border-radius: 50%;
     filter: grayscale(100%);
+    transition: 2s ease;
     
 }

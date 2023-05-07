@@ -1,41 +1,39 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
 
 
-.top-container{
-    
-    
+.top-container {
+
+
     width: 200px;
     height: 200px;
     background-color: gainsboro;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: 2px dotted grey;
-    border-spacing: 10%;
+    
    
-    
-    box-sizing: border-box;
-    
-    transition: 0.5s ease;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+   
+
     
 
+    transition: 0.5s ease;
+
+
 }
-.top-container:hover
-{
+
+.top-container:hover {
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
     background-color: crimson;
-    
- 
+
+
 }
 
-.middle-container{
+.middle-container {
     width: 200px;
     height: 200px;
     background-color: antiquewhite;
@@ -45,42 +43,74 @@
     top: 200px;
     transition: 1s ease-in-out;
 }
-.middle-container:hover{
+
+.middle-container:hover {
     width: 100px;
     height: 100px;
     border-radius: 100%;
     background-color: crimson;
 }
-.bottom-container{
-    
+
+.bottom-container {
+
     width: 200px;
     height: 200px;
     background-color: beige;
     display: inline-block;
-    position: relative;
+    position: absolute;
     left: 400px;
     top: 400px;
-    transition:1s ease;
+    transition: 0.3s ease;
 }
-.bottom-container:hover
-{
-    
+
+.bottom-container:hover {
+
     background-color: crimson;
+    box-shadow: 5px 5px 10px 1px grey;
 }
-.Box
-{
-    
-  
+
+.Box {
+
+
     position: absolute;
-    
+    box-shadow: 5px 5px 10px 1px grey;
     background-color: chartreuse;
-    width: 50%;
-    height: 50%;
+
+    width: 100%;
+    height: 30%;
     transition: 0.5s ease;
+
+    color: transparent;
 }
-.Box:hover{
-    
-    
-    width: 20%;
-    height: 20%;
+
+.Box:hover {
+
+
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    color: black;
+
+}
+
+
+a:-moz-drag-over {
+    color: crimson;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+a:visited {
+    color: pink;
+}
+.textlinks
+{
+    position: relative;
+    z-index: 5;
+    top: 500px;
 }
