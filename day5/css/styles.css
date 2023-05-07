@@ -11,11 +11,10 @@
     
     width: 200px;
     height: 200px;
-    background-color: crimson;
+    background-color: gainsboro;
     display: inline-block;
-    position: absolute;
-    left: 600px;
-    top: 600px;
+    position: relative;
+    left: 408px;
     
     border: 2px dotted grey;
     border-spacing: 10%;
