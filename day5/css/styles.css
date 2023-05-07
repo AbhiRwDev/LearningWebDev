@@ -3,25 +3,33 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    
-  
-}
+
 
 
 .top-container{
-    padding: 20px;
+    
+    
     width: 200px;
     height: 200px;
     background-color: aqua;
+    display: inline-block;
+    position: relative;
+    left: 408px;
 }
+
 .middle-container{
     width: 200px;
     height: 200px;
     background-color: antiquewhite;
+    display: inline-block;
+    position: relative;
+    right: 208px;
 }
 .bottom-container{
     width: 200px;
     height: 200px;
     background-color: beige;
+    display: inline-block;
+    position: relative;
+    right: 208px;
 }
