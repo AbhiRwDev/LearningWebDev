@@ -5,11 +5,9 @@
 
 .container{
     width: 600px;
-    margin: auto;
     height: 600px;
-    position: relative;
     background-color: grey;
-    text-align: center;
+    
 }
 
 .top-container {

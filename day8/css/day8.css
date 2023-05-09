@@ -5,8 +5,11 @@
 
 .container{
     width: 600px;
+    margin: auto;
     height: 600px;
+    position: relative;
     background-color: grey;
+    text-align: center;
 }
 
 .top-container {
@@ -116,5 +119,6 @@ a:visited {
 {
     position: relative;
     z-index: 5;
-    top: 500px;
+    
+    margin: 0 auto 0 auto;
 }
